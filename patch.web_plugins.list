@@ -1,0 +1,2 @@
+#<ACTION> file=>'cfg/web_plugins.list',hook=>'admin'
+ajWildcoreData 1     ajWildcoreData Wildcore load lazy form

@@ -1,0 +1,4 @@
+#<ACTION> file=>'web/tmpl/adm_top_block.html',hook=>'top_menu_end'
+    {% if !admin.chk_privil('demo') %}
+    <a href='{{cfg::wildcore_url}}' target="_blank">WildcoreDMS</a>
+    {% endif %}
